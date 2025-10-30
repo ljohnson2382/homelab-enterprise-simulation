@@ -12,6 +12,9 @@ This homelab represents my commitment to understanding enterprise technologies b
 ### Learning Objective
 Develop comprehensive technical understanding that allows me to provide better support and grow into more advanced IT roles with confidence and competency.
 
+### Strategic Deployment Decisions
+While initially considering self-hosting portfolio content from the Ubuntu server, I strategically chose enterprise cloud deployment (Azure Static Web Apps) to gain experience with modern DevOps practices and enterprise-grade CI/CD pipelines - demonstrating practical business decision-making in technology choices.
+
 ## 🏗️ Infrastructure Architecture
 
 ### Hardware Foundation
@@ -26,6 +29,7 @@ Host System (Windows 11)
 ├── Oracle VirtualBox
     ├── Ubuntu Server - Linux Security Hardening Lab
     │   ├── SSH Key-based Authentication (password auth disabled)
+    │   ├── Apache Web Server (initially for portfolio self-hosting consideration)
     │   ├── MariaDB Database Server
     │   ├── Firewall Configuration (ports 80, 443, custom SSH only)
     │   ├── Root login disabled (sudo-only administration)
@@ -62,6 +66,7 @@ Host System (Windows 11)
 
 ### Linux Administration
 - **Ubuntu Server Management**: Complete server setup and configuration
+- **Web Server Administration**: Apache installation and configuration for potential self-hosting scenarios
 - **Database Administration**: MariaDB installation, configuration, and management
 - **Security Hardening**: Implementation of enterprise-grade security practices
 - **Network Configuration**: Static IP setup and firewall rule management
